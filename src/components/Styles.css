@@ -1,0 +1,60 @@
+
+/* Adding styles component for Breakout / Snake Games */ 
+
+.main-container { 
+    text-align: center;
+    display : flex;
+    flex-direction : row;
+ }
+ .center {
+    margin: auto;
+    width: 100%;
+
+}
+ .center-navbar {
+    margin: auto;
+    padding-left: 20px ;
+ 
+   
+
+ }
+ .main-container{
+     display: flex;
+ }
+ .left-container{
+     flex-basis: 10%;
+ }
+ .right-container{
+     flex-basis: 90%;
+     background-color: rgb(255, 255, 255);
+     color: rgb(9, 3, 31);
+ }
+ /* .right-container-container{
+     display: flex;
+     flex-direction: row;
+ } */
+ .right-main-item {
+     flex: 1;
+ 
+ }
+ .home-columns {
+    float : left;
+    width: 50%;
+    padding: 10px;
+    height:300px;
+ }
+ .home-columns-left {
+    float : left;
+    width: 50%;
+    padding: 10px;
+    height:300px;
+ }
+ .home-columns-right {
+    float : right;
+    width: 50%;
+    padding: 10px;
+    height:300px;
+ }
+ .home-columns-span {
+    column-span : all;
+ }
