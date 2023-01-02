@@ -1,408 +1,471 @@
 {
-    "read": [
-        {
-            "book": "Genesis",
-            "chapter": "50",
-            "version ": "OldTestament",
-            "id": "1"
-        }
-    ],
-    "listerines": [
-      {
-          "book": "Genesis",
-          "chapter": "50",
-          "version ": "OldTestament",
-          "id": "1"
-      },
-      {
-          "book": "Exodus",
-          "chapter": "40",
-          "version ": "OldTestament",
-          "id": "2"
-      },
-      {
-          "book": "Leviticus",
-          "chapter": "27",
-          "version ": "OldTestament",
-          "id": "3"
-      },
-      {
-          "book": "Numbers",
-          "chapter": "36",
-          "version ": "OldTestament",
-          "id": "4"
-      },
-      {
-          "book": "Deuteronomy",
-          "chapter": "34",
-          "version ": "OldTestament",
-          "id": "5"
-      },
-      {
-          "book": "Joshua",
-          "chapter": "24",
-          "version ": "OldTestament",
-          "id": "6"
-      },
-      {
-          "book": "Judges",
-          "chapter": "21",
-          "version ": "OldTestament",
-          "id": "7"
-      },
-      {
-          "book": "Ruth",
-          "chapter": "4",
-          "version ": "OldTestament",
-          "id": "8"
-      },
-      {
-          "book": "1 Samuel",
-          "chapter": "31",
-          "version ": "OldTestament",
-          "id": "9"
-      },
-      {
-          "book": "2 Samuel",
-          "chapter": "24",
-          "version ": "OldTestament",
-          "id": "10"
-      },
-      {
-          "book": "1 Kings",
-          "chapter": "22",
-          "version ": "OldTestament",
-          "id": "11"
-      },
-      {
-          "book": "2 Kings",
-          "chapter": "25",
-          "version ": "OldTestament",
-          "id": "12"
-      },
-      {
-          "book": "1 Chronicles",
-          "chapter": "29",
-          "version ": "OldTestament",
-          "id": "13"
-      },
-      {
-          "book": "2 Chronicles",
-          "chapter": "36",
-          "version ": "OldTestament",
-          "id": "14"
-      },
-      {
-          "book": "Ezra",
-          "chapter": "10",
-          "version ": "OldTestament",
-          "id": "15"
-      },
-      {
-          "book": "Nehemiah",
-          "chapter": "13",
-          "version ": "OldTestament",
-          "id": "16"
-      },
-      {
-          "book": "Esther",
-          "chapter": "10",
-          "version ": "OldTestament",
-          "id": "17"
-      },
-      {
-          "book": "Job",
-          "chapter": "42",
-          "version ": "OldTestament",
-          "id": "18"
-      },
-      {
-          "book": "Psalms",
-          "chapter": "150",
-          "version ": "OldTestament",
-          "id": "19"
-      },
-      {
-          "book": "Proverbs",
-          "chapter": "31",
-          "version ": "OldTestament",
-          "id": "20"
-      },
-      {
-          "book": "Ecclesiastes",
-          "chapter": "12",
-          "version ": "OldTestament",
-          "id": "21"
-      },
-      {
-          "book": "Song of Solomon",
-          "chapter": "8",
-          "version ": "OldTestament",
-          "id": "22"
-      },
-      {
-          "book": "Isaiah",
-          "chapter": "66",
-          "version ": "OldTestament",
-          "id": "23"
-      },
-      {
-          "book": "Jeremiah",
-          "chapter": "52",
-          "version ": "OldTestament",
-          "id": "24"
-      },
-      {
-          "book": "Lamentations",
-          "chapter": "5",
-          "version ": "OldTestament",
-          "id": "25"
-      },
-      {
-          "book": "Ezekiel",
-          "chapter": "48",
-          "version ": "OldTestament",
-          "id": "26"
-      },
-      {
-          "book": "Daniel",
-          "chapter": "12",
-          "version ": "OldTestament",
-          "id": "27"
-      },
-      {
-          "book": "Hosea",
-          "chapter": "14",
-          "version ": "OldTestament",
-          "id": "28"
-      },
-      {
-          "book": "Joel",
-          "chapter": "3",
-          "version ": "OldTestament",
-          "id": "29"
-      },
-      {
-          "book": "Amos",
-          "chapter": "9",
-          "version ": "OldTestament",
-          "id": "30"
-      },
-      {
-          "book": "Obadiah",
-          "chapter": "1",
-          "version ": "OldTestament",
-          "id": "31"
-      },
-      {
-          "book": "Jonah",
-          "chapter": "4",
-          "version ": "OldTestament",
-          "id": "32"
-      },
-      {
-          "book": "Micah",
-          "chapter": "7",
-          "version ": "OldTestament",
-          "id": "33"
-      },
-      {
-          "book": "Nahum",
-          "chapter": "3",
-          "version ": "OldTestament",
-          "id": "34"
-      },
-      {
-          "book": "Habakkuk",
-          "chapter": "3",
-          "version ": "OldTestament",
-          "id": "35"
-      },
-      {
-          "book": "Zephaniah",
-          "chapter": "3",
-          "version ": "OldTestament",
-          "id": "36"
-      },
-      {
-          "book": "Haggai",
-          "chapter": "2",
-          "version ": "OldTestament",
-          "id": "37"
-      },
-      {
-          "book": "Zechariah",
-          "chapter": "14",
-          "version ": "OldTestament",
-          "id": "38"
-      },
-      {
-          "book": "Malachi",
-          "chapter": "4",
-          "version ": "OldTestament",
-          "id": "39"
-      },
-      {
-          "book": "Matthew",
-          "chapter": "28",
-          "version ": "NewTestament",
-          "id": "40"
-      },
-      {
-          "book": "Mark",
-          "chapter": "16",
-          "version ": "NewTestament",
-          "id": "41"
-      },
-      {
-          "book": "Luke",
-          "chapter": "24",
-          "version ": "NewTestament",
-          "id": "42"
-      },
-      {
-          "book": "John",
-          "chapter": "21",
-          "version ": "NewTestament",
-          "id": "43"
-      },
-      {
-          "book": "Acts",
-          "chapter": "28",
-          "version ": "NewTestament",
-          "id": "44"
-      },
-      {
-          "book": "Romans",
-          "chapter": "16",
-          "version ": "NewTestament",
-          "id": "45"
-      },
-      {
-          "book": "1 Corinthians",
-          "chapter": "16",
-          "version ": "NewTestament",
-          "id": "46"
-      },
-      {
-          "book": "2 Corinthians",
-          "chapter": "13",
-          "version ": "NewTestament",
-          "id": "47"
-      },
-      {
-          "book": "Galatians",
-          "chapter": "6",
-          "version ": "NewTestament",
-          "id": "48"
-      },
-      {
-          "book": "Ephesians",
-          "chapter": "6",
-          "version ": "NewTestament",
-          "id": "49"
-      },
-      {
-          "book": "Philippians",
-          "chapter": "4",
-          "version ": "NewTestament",
-          "id": "50"
-      },
-      {
-          "book": "Colossians",
-          "chapter": "4",
-          "version ": "NewTestament",
-          "id": "51"
-      },
-      {
-          "book": "1 Thessalonians",
-          "chapter": "5",
-          "version ": "NewTestament",
-          "id": "52"
-      },
-      {
-          "book": "2 Thessalonians",
-          "chapter": "3",
-          "version ": "NewTestament",
-          "id": "53"
-      },
-      {
-          "book": "1 Timothy",
-          "chapter": "6",
-          "version ": "NewTestament",
-          "id": "54"
-      },
-      {
-          "book": "2 Timothy",
-          "chapter": "4",
-          "version ": "NewTestament",
-          "id": "55"
-      },
-      {
-          "book": "Titus",
-          "chapter": "3",
-          "version ": "NewTestament",
-          "id": "56"
-      },
-      {
-          "book": "Philemon",
-          "chapter": "1",
-          "version ": "NewTestament",
-          "id": "57"
-      },
-      {
-          "book": "Hebrews",
-          "chapter": "13",
-          "version ": "NewTestament",
-          "id": "58"
-      },
-      {
-          "book": "James",
-          "chapter": "5",
-          "version ": "NewTestament",
-          "id": "59"
-      },
-      {
-          "book": "1 Peter",
-          "chapter": "5",
-          "version ": "NewTestament",
-          "id": "60"
-      },
-      {
-          "book": "2 Peter",
-          "chapter": "3",
-          "version ": "NewTestament",
-          "id": "61"
-      },
-      {
-          "book": "1 John",
-          "chapter": "5",
-          "version ": "NewTestament",
-          "id": "62"
-      },
-      {
-          "book": "2 John",
-          "chapter": "1",
-          "version ": "NewTestament",
-          "id": "63"
-      },
-      {
-          "book": "3 John",
-          "chapter": "1",
-          "version ": "NewTestament",
-          "id": "64"
-      },
-      {
-          "book": "Jude",
-          "chapter": "1",
-          "version ": "NewTestament",
-          "id": "65"
-      },
-      {
-          "book": "Revelation",
-          "chapter": "22",
-          "version ": "NewTestament",
-          "id": "66"
-      }
+  "read": [
+    {
+      "book": "Genesis",
+      "chapter": "50",
+      "version ": "OldTestament",
+      "id": "1"
+    },
+    {
+      "book": "Matthew",
+      "chapter": "1",
+      "verse": "1",
+      "text": "The book of the genealogy of Jesus Christ, the son of David, the son of Abraham.\n",
+      "id": "92UUMcD"
+    },
+    {
+      "book": "Matthew",
+      "chapter": "1",
+      "verse": "2",
+      "text": "Abraham became the father of Isaac. Isaac became the father of Jacob. Jacob became the father of Judah and his brothers.\n",
+      "id": "yl6mCLE"
+    },
+    {
+      "book": "Matthew",
+      "chapter": "1",
+      "verse": "3",
+      "text": "Judah became the father of Perez and Zerah by Tamar. Perez became the father of Hezron. Hezron became the father of Ram.\n",
+      "id": "FMRnNUj"
+    },
+    {
+      "book": "Matthew",
+      "chapter": "1",
+      "verse": "1",
+      "text": "The book of the genealogy of Jesus Christ, the son of David, the son of Abraham.\n",
+      "id": "PbGL2Tb"
+    },
+    {
+      "book": "Matthew",
+      "chapter": "2",
+      "verse": "1",
+      "text": "Now when Jesus was born in Bethlehem of Judea in the days of King Herod, behold, wise men from the east came to Jerusalem, saying,\n",
+      "id": "tFsvUkt"
+    },
+    {
+      "book": "Matthew",
+      "chapter": "2",
+      "verse": "3",
+      "text": "When King Herod heard it, he was troubled, and all Jerusalem with him.\n",
+      "id": "PtKNM3g"
+    },
+    {
+      "book": "Matthew",
+      "chapter": "4",
+      "verse": "3",
+      "text": "The tempter came and said to him, “If you are the Son of God, command that these stones become bread.”\n",
+      "id": "zRw497L"
+    },
+    {
+      "book": "Matthew",
+      "chapter": "5",
+      "verse": "3",
+      "text": "\n“Blessed are the poor in spirit,\nfor theirs is the Kingdom of Heaven.\n",
+      "id": "DJ5TiWN"
+    },
+    {
+      "book": "Matthew",
+      "chapter": "1",
+      "verse": "3",
+      "text": "Judah became the father of Perez and Zerah by Tamar. Perez became the father of Hezron. Hezron became the father of Ram.\n",
+      "id": "9aLCyuT"
+    }
+  ],
+  "listerines": [
+    {
+      "book": "Genesis",
+      "chapter": "50",
+      "version ": "OldTestament",
+      "id": "1"
+    },
+    {
+      "book": "Exodus",
+      "chapter": "40",
+      "version ": "OldTestament",
+      "id": "2"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": "27",
+      "version ": "OldTestament",
+      "id": "3"
+    },
+    {
+      "book": "Numbers",
+      "chapter": "36",
+      "version ": "OldTestament",
+      "id": "4"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": "34",
+      "version ": "OldTestament",
+      "id": "5"
+    },
+    {
+      "book": "Joshua",
+      "chapter": "24",
+      "version ": "OldTestament",
+      "id": "6"
+    },
+    {
+      "book": "Judges",
+      "chapter": "21",
+      "version ": "OldTestament",
+      "id": "7"
+    },
+    {
+      "book": "Ruth",
+      "chapter": "4",
+      "version ": "OldTestament",
+      "id": "8"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": "31",
+      "version ": "OldTestament",
+      "id": "9"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": "24",
+      "version ": "OldTestament",
+      "id": "10"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": "22",
+      "version ": "OldTestament",
+      "id": "11"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": "25",
+      "version ": "OldTestament",
+      "id": "12"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": "29",
+      "version ": "OldTestament",
+      "id": "13"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": "36",
+      "version ": "OldTestament",
+      "id": "14"
+    },
+    {
+      "book": "Ezra",
+      "chapter": "10",
+      "version ": "OldTestament",
+      "id": "15"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": "13",
+      "version ": "OldTestament",
+      "id": "16"
+    },
+    {
+      "book": "Esther",
+      "chapter": "10",
+      "version ": "OldTestament",
+      "id": "17"
+    },
+    {
+      "book": "Job",
+      "chapter": "42",
+      "version ": "OldTestament",
+      "id": "18"
+    },
+    {
+      "book": "Psalms",
+      "chapter": "150",
+      "version ": "OldTestament",
+      "id": "19"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": "31",
+      "version ": "OldTestament",
+      "id": "20"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": "12",
+      "version ": "OldTestament",
+      "id": "21"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": "8",
+      "version ": "OldTestament",
+      "id": "22"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": "66",
+      "version ": "OldTestament",
+      "id": "23"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": "52",
+      "version ": "OldTestament",
+      "id": "24"
+    },
+    {
+      "book": "Lamentations",
+      "chapter": "5",
+      "version ": "OldTestament",
+      "id": "25"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": "48",
+      "version ": "OldTestament",
+      "id": "26"
+    },
+    {
+      "book": "Daniel",
+      "chapter": "12",
+      "version ": "OldTestament",
+      "id": "27"
+    },
+    {
+      "book": "Hosea",
+      "chapter": "14",
+      "version ": "OldTestament",
+      "id": "28"
+    },
+    {
+      "book": "Joel",
+      "chapter": "3",
+      "version ": "OldTestament",
+      "id": "29"
+    },
+    {
+      "book": "Amos",
+      "chapter": "9",
+      "version ": "OldTestament",
+      "id": "30"
+    },
+    {
+      "book": "Obadiah",
+      "chapter": "1",
+      "version ": "OldTestament",
+      "id": "31"
+    },
+    {
+      "book": "Jonah",
+      "chapter": "4",
+      "version ": "OldTestament",
+      "id": "32"
+    },
+    {
+      "book": "Micah",
+      "chapter": "7",
+      "version ": "OldTestament",
+      "id": "33"
+    },
+    {
+      "book": "Nahum",
+      "chapter": "3",
+      "version ": "OldTestament",
+      "id": "34"
+    },
+    {
+      "book": "Habakkuk",
+      "chapter": "3",
+      "version ": "OldTestament",
+      "id": "35"
+    },
+    {
+      "book": "Zephaniah",
+      "chapter": "3",
+      "version ": "OldTestament",
+      "id": "36"
+    },
+    {
+      "book": "Haggai",
+      "chapter": "2",
+      "version ": "OldTestament",
+      "id": "37"
+    },
+    {
+      "book": "Zechariah",
+      "chapter": "14",
+      "version ": "OldTestament",
+      "id": "38"
+    },
+    {
+      "book": "Malachi",
+      "chapter": "4",
+      "version ": "OldTestament",
+      "id": "39"
+    },
+    {
+      "book": "Matthew",
+      "chapter": "28",
+      "version ": "NewTestament",
+      "id": "40"
+    },
+    {
+      "book": "Mark",
+      "chapter": "16",
+      "version ": "NewTestament",
+      "id": "41"
+    },
+    {
+      "book": "Luke",
+      "chapter": "24",
+      "version ": "NewTestament",
+      "id": "42"
+    },
+    {
+      "book": "John",
+      "chapter": "21",
+      "version ": "NewTestament",
+      "id": "43"
+    },
+    {
+      "book": "Acts",
+      "chapter": "28",
+      "version ": "NewTestament",
+      "id": "44"
+    },
+    {
+      "book": "Romans",
+      "chapter": "16",
+      "version ": "NewTestament",
+      "id": "45"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": "16",
+      "version ": "NewTestament",
+      "id": "46"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": "13",
+      "version ": "NewTestament",
+      "id": "47"
+    },
+    {
+      "book": "Galatians",
+      "chapter": "6",
+      "version ": "NewTestament",
+      "id": "48"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": "6",
+      "version ": "NewTestament",
+      "id": "49"
+    },
+    {
+      "book": "Philippians",
+      "chapter": "4",
+      "version ": "NewTestament",
+      "id": "50"
+    },
+    {
+      "book": "Colossians",
+      "chapter": "4",
+      "version ": "NewTestament",
+      "id": "51"
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": "5",
+      "version ": "NewTestament",
+      "id": "52"
+    },
+    {
+      "book": "2 Thessalonians",
+      "chapter": "3",
+      "version ": "NewTestament",
+      "id": "53"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": "6",
+      "version ": "NewTestament",
+      "id": "54"
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": "4",
+      "version ": "NewTestament",
+      "id": "55"
+    },
+    {
+      "book": "Titus",
+      "chapter": "3",
+      "version ": "NewTestament",
+      "id": "56"
+    },
+    {
+      "book": "Philemon",
+      "chapter": "1",
+      "version ": "NewTestament",
+      "id": "57"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": "13",
+      "version ": "NewTestament",
+      "id": "58"
+    },
+    {
+      "book": "James",
+      "chapter": "5",
+      "version ": "NewTestament",
+      "id": "59"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": "5",
+      "version ": "NewTestament",
+      "id": "60"
+    },
+    {
+      "book": "2 Peter",
+      "chapter": "3",
+      "version ": "NewTestament",
+      "id": "61"
+    },
+    {
+      "book": "1 John",
+      "chapter": "5",
+      "version ": "NewTestament",
+      "id": "62"
+    },
+    {
+      "book": "2 John",
+      "chapter": "1",
+      "version ": "NewTestament",
+      "id": "63"
+    },
+    {
+      "book": "3 John",
+      "chapter": "1",
+      "version ": "NewTestament",
+      "id": "64"
+    },
+    {
+      "book": "Jude",
+      "chapter": "1",
+      "version ": "NewTestament",
+      "id": "65"
+    },
+    {
+      "book": "Revelation",
+      "chapter": "22",
+      "version ": "NewTestament",
+      "id": "66"
+    }
   ]
 }
