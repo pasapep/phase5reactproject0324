@@ -1,5 +1,6 @@
 import React, {useState, useEffect, Component} from "react";
 import { Menu, Container , Header, Divider, Grid, Button } from "semantic-ui-react";
+import Progress from "./Progress"
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
     const [verseText, setVerseText] = useState('');
     const [newBooks, setNewBooks] = useState([]);
 
+
     useEffect(() => {
         // make a GET request to the Bible API endpoint
         fetch(`https://bible-api.com/${book}%20${chapter}:${verse}`)
@@ -19,6 +21,19 @@ function Home() {
             setNewBooks(data);
           });
       }, [book, chapter, verse]);
+
+    //Using useEffect to fetch the books. 
+    const [bookLists, setBookLists] = useState([]);
+    const [verseLists, setVerseLists] = useState([]);
+    useEffect(() => {
+        fetch ("http://localhost:5555/listerines")
+        .then (resp => resp.json())
+        .then (data => {
+            setBookLists(data);
+            setVerseLists(data);
+        })
+    }, [])
+
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -45,7 +60,6 @@ function Home() {
     }
 
 
-
     return (
         <Container text textAlign="center">
         <Divider hidden />  
@@ -59,6 +73,7 @@ function Home() {
               <Header size="huge" as="h1">
                 Book
               </Header>
+              {/* Change with the list */}
               <input type = "text" value = {book} onChange = {(event) => setBook(event.target.value) } />
             </Grid.Column>
             <Grid.Column>
@@ -74,14 +89,18 @@ function Home() {
               </Header>
               <input type = "number" value = {verse} onChange = {(event) => setVerse(event.target.value)} />
             </Grid.Column>
+        
           </Grid.Row>
         </Grid>
             <Divider hidden />
             <button type = "submit"> Send to DB JSON </button>
 
-            </form> 
+            </form>
+        <Divider hidden />
+        <Progress     bookLists = {bookLists} verseLists = {verseLists} setBookLists = {setBookLists} /> 
         </div>
         </Container>
+        
     )
 }
 

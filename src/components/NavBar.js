@@ -18,7 +18,7 @@ function NavBar() {
                     <Menu.Item header as = "a" href = "/" style = {{color: "yellow"}}>
                         Home
                     </Menu.Item>
-                    <Menu.Item header as = "a" href = "/" style = {{color: "yellow"}}>
+                    <Menu.Item header as = "a" href = "/progress" style = {{color: "yellow"}}>
                         Progress
                     </Menu.Item>
                 </Container>

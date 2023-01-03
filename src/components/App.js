@@ -5,6 +5,7 @@ import { Route, Switch, BrowserRouter } from "react-router-dom";// import Header
 import React, {useState, useEffect, Component} from "react";
 import { Button, Container, Grid, Header, Icon, Menu } from "semantic-ui-react";
 import NavBar from "./NavBar";
+import Progress from "./Progress"
 import Home from "./Home";
 // import NavBar from "./NavBar"
 
@@ -16,6 +17,11 @@ function App () {
         <NavBar />
     </div>
     <div>
+        <Switch>
+            <Route path = "/progress">
+                <Progress />
+            </Route>
+        </Switch>
         <Switch>
             <Route path = "/">
                 <Home />
