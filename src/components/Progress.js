@@ -8,49 +8,45 @@ function Progress ({bookLists , setBookLists }) {
     const onToggleMode = () => {
         setIsDarkMode((isDarkMode) => !isDarkMode)
     }
+    const [color, setColor] = useState(true);
 
-    const books = bookLists.map(book =>
-        
-        <List.Item>
-            <Divider hidden />
+    const toggleColor = () => {
+        setColor(color ==='black' ? 'black' : 'magenta')
+    }
 
-            <List.Icon name = 'github' size = 'large'  />
-            <List.Content>
-                <List.Header as ='a'>{book.book}</List.Header>
-                <div> 
-                    {/* {parseInt(book.chapter)}
-                    {[...book.chapter].map((_,index) => (
-                        <p key = {index}>{index} </p>
-                    ))} */}
-                    { Array.from({length: book.chapter}, (_,i) => (
-                        
-                        <button style = {isDarkMode ? {color:"black"} : {color:"magenta"}} key = {i} >
-                            {i + 1}
-                        </button>
-                    ))}
-                </div>
-            </List.Content>
-         </List.Item>
-         );
+    const textToggle = isDarkMode ? "Read" : "Unread"
+
+    const sellers = bookLists.map(book => Array.from({length:book.chapter}, (_,i) => (
+        <li onClick = {toggleColor} style = {{color} } key = {i} >{textToggle}{i + 1} </li>
+    )))
 
     //1.ParseInt chapters, 
     //2. Make the list of chapters , for max value = book.chapter.length
     // const chapters = bookLists.map(book => book.chapter);
 
+    console.log("HSFD", bookLists)
     
     const newBooks = bookLists.map(book => book.book);
     const newChapters = bookLists.map(book => book.chapter)
 
-   
-    
-    console.log("NEWNEWNEW", newChapters)
 
-    // { Array.from({length: book.chapter}, (_,i) => (
-                        
-    //     <button style = {isDarkMode ? {color:"black"} : {color:"magenta"}} key = {i} >
-    //         {i + 1}
-    //     </button>
-    // ))}
+   
+  
+
+   /* const buttons = bookLists.map((item => {      
+        const chapters = Array.from({length: item.chapter}, (_,i) => (
+            <button onClick = {toggleColor} style = {{color}} key = {i}>{textToggle} {i+1} </button>
+        ));
+
+       
+        return (
+            <div key = {item.id}>
+                 <List.Icon name = 'github' size = 'large'  />
+                <h3>{item.book}</h3>
+                {chapters}
+            </div>
+        )
+    })) */
 
     
 
@@ -58,16 +54,18 @@ function Progress ({bookLists , setBookLists }) {
         <div>
         <List.Item>
             <Divider hidden />
-
             <List.Icon name = 'github' size = 'large'  />
+            <Divider hidden />
             <List.Content>
-                {bookLists.map(book => <List>{book.book} </List>)}
-            </List.Content>
-            <div>
-                {Array.from({length: newChapters.chapter}, (_,i) => (
+            {bookLists.map(book =>
+                 <List>{book.book}</List>
+                 )}
+            {Array.from({length: newChapters.chapter}, (_,i) => (
                     <button style = {isDarkMode? {color:"black"}:{color:"magenta"}} key = {i}>{i +1} </button>
                 ))}
-            </div>
+
+              
+            </List.Content>
         </List.Item>
         </div>
     )

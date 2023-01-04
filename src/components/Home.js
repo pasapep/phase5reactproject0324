@@ -35,6 +35,9 @@ function Home() {
     }, [])
 
 
+    const blueBook = bookLists.map((book) => book.book)
+    console.log("bluebook",blueBook)
+
     const handleSubmit = (event) => {
         event.preventDefault();
 
@@ -60,6 +63,7 @@ function Home() {
     }
 
 
+
     return (
         <Container text textAlign="center">
         <Divider hidden />  
@@ -74,7 +78,12 @@ function Home() {
                 Book
               </Header>
               {/* Change with the list */}
-              <input type = "text" value = {book} onChange = {(event) => setBook(event.target.value) } />
+              <input list = "browsers" type = "text" value = {book} onChange = {(event) => setBook(event.target.value) } />
+              <datalist id = "browsers" value = {book} onChange = {(event) => setBook(event.target.value)}>
+                {blueBook.map((book) => (
+                  <option key = {book} value = {book}> {book} </option>
+                ))}
+              </datalist>
             </Grid.Column>
             <Grid.Column>
               <Header size="huge" as="h1">
@@ -89,6 +98,7 @@ function Home() {
               </Header>
               <input type = "number" value = {verse} onChange = {(event) => setVerse(event.target.value)} />
             </Grid.Column>
+            
         
           </Grid.Row>
         </Grid>
