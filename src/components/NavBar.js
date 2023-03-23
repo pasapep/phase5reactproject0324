@@ -1,30 +1,33 @@
 import React, {useState, useEffect, Component} from "react";
+import { Navbar } from "react-bootstrap";
 import { Menu, Container } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
-
-    const [isDarkMode, setIsDarkMode] = useState(true);
-    const onToggleDarkMode =() => {
-        setIsDarkMode((isDarkMode) => !isDarkMode)
-    }
-
-    const textButton = isDarkMode ? "Light Mode" : "Dark Mode";
-
-
-    return (
-        <div className = "App"> 
-            <Menu borderless fluid inverted size = "huge" style={{ textAlign: 'center' }}>
-                <Container>
-                    <Menu.Item header as = "a" href = "/" style = {{color: "yellow"}}>
-                        Home
-                    </Menu.Item>
-                    <Menu.Item header as = "a" href = "/progress" style = {{color: "yellow"}}>
-                        Progress
-                    </Menu.Item>
-                </Container>
-            </Menu>
-        </div>
-    )
+  return (
+    <div className="App">
+      <Menu borderless fluid inverted size="huge" style={{ textAlign: 'center', justifyContent: "flex-start" }}>
+        <Container>
+          {/* Home Link */}
+          <Menu.Item as={Link} to="/" header style={{ color: "yellow" }}>
+            Home
+          </Menu.Item>
+          {/* Progress Link */}
+          <Menu.Item as={Link} to="/progress" header style={{ color: "yellow" }}>
+            Progress
+          </Menu.Item>
+          {/* Scoreboard Link */}
+          <Menu.Item as={Link} to="/scoreboard" header style={{ color: "yellow" }}>
+            Scoreboard
+          </Menu.Item>
+          {/* Login Link */}
+          <Menu.Item as={Link} to="/login" header style={{ color: "yellow" }}>
+            Login
+          </Menu.Item>
+        </Container>
+      </Menu>
+    </div>
+  );
 }
 
-export default NavBar;
+export default  NavBar;

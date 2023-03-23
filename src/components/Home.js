@@ -2,9 +2,7 @@ import React, {useState, useEffect, Component} from "react";
 import { Menu, Container , Header, Divider, Grid, Button } from "semantic-ui-react";
 import Progress from "./Progress"
 
-
-function Home() {
-
+function Home () { 
     const [book, setBook] = useState('');
     const [chapter, setChapter] = useState('');
     const [verse, setVerse] = useState('');
